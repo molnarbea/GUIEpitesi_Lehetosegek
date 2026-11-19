@@ -1,5 +1,6 @@
 package app;
 
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -18,13 +19,20 @@ public class NewClass {
                 frame.setSize(320, 240);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 
-                JButton btn = new JButton("Katt ide");
-                frame.add(btn);
-                btn.addActionListener(new ActionListener(){
+                JButton btn1 = new JButton("Gomb1");
+                frame.setLayout(new FlowLayout());
+                frame.add(btn1);
+                btn1.addActionListener(new ActionListener(){
                     public void actionPerformed(ActionEvent e){
                         JOptionPane.showMessageDialog(null, "klikkeltél");
                     }
                 });
+                
+                
+                JButton btn2 = new JButton("Gomb2");
+                frame.add(btn2);
+                JButton btn3 = new JButton("Gomb3");
+                frame.add(btn3);
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
