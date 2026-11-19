@@ -14,9 +14,10 @@ public class ClassExtJFrame extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);*/
         
         frame = new JFrame("Class extends JFrame");
-        frame.setVisible(true);
         frame.setSize(320, 240);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        
     }
     
     
