@@ -39,6 +39,7 @@ public class NewClass {
                 });
                 
                 
+                
                 JButton btn2 = new JButton("Gomb2");
                 frame.add(btn2);
                 
