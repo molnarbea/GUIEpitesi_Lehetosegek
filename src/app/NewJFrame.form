@@ -21,7 +21,7 @@
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
   </AuxValues>
 
-  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
   <SubComponents>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
